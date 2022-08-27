@@ -5,9 +5,9 @@ spring:
     name: zxl-service-user
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://118.126.92.128:13301/zxl_exchange_user?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
-    username: root
-    password: root
+    url: jdbc:mysql://10.211.55.6:3306/zxl_exchange_user?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: cancan
+    password: uURUx%7i
   redis:
     host: 118.126.92.128
     port: 6379
